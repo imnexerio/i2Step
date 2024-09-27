@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"
+            android:id="@+id/transTitle"
+            android:text="Initiate Transaction"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/transTransactionIDLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/transTitle"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="45dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtTransactionID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Transaction ID"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/transamountLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/transTransactionIDLayout"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtNewAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Amount"
+                android:inputType="numberDecimal"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/transInitiatedForLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/transamountLayout"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtNewInitiatedFor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Initiated For"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/transCommentsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/transInitiatedForLayout"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtComments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comments"
+                android:singleLine="true"
+                android:maxLength="79"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/transpaymentMethodLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/transCommentsLayout"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp">
+
+            <Spinner
+                android:id="@+id/edtNewPaymentMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:minHeight="?attr/listPreferredItemHeight" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/transpaymentMethodLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:text="Initiate Request" />
+    </RelativeLayout>
+</ScrollView>

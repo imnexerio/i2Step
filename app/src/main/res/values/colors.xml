@@ -1,0 +1,14 @@
+<resources>
+    <color name="purple_200">#FFD7CCC8</color>
+    <color name="purple_500">#FF8D6E63</color>
+    <color name="purple_700">#FF4E342E</color>
+    <color name="purple_800">#D1C2BF</color>
+    <color name="purple_900">#E4DDDB</color>
+    <color name="teal_200">#FFB2DFDB</color>
+    <color name="teal_700">#FF004D40</color>
+    <color name="black">#FF1B1B1B</color>
+    <color name="white">#FFFAFAFA</color>
+    <!-- Additional colors for night mode -->
+    <color name="night_black">#FF000000</color>
+    <color name="night_white">#FFFFFFFF</color>
+</resources>

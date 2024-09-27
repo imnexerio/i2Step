@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">i2Step</string>
+
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="welcome">Welcome</string>
+    <string name="logout">Logout</string>
+    <string name="address_1">Address: Jaunpur Uttar Pradesh, India</string>
+    <string name="phone_912">Phone: +91123456789</string>
+    <string name="phone_911">Phone: +9123456789</string>
+
+    <string-array name="paymentchannel_array">
+        <item>CASH</item>
+        <item>CHEQUE</item>
+        <item>BANK TRANSFER</item>
+        <item>UPI</item>
+    </string-array>
+    <string-array name="paymentStatus_array">
+        <item>INITIATED</item>
+        <item>VERIFIED</item>
+    </string-array>
+    <string-array name="orderStatus_array">
+        <item>INITIATED</item>
+        <item>VERIFIED</item>
+    </string-array>
+</resources>

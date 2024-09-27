@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <TextView
+            android:textSize="32.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"
+            android:gravity="center"
+            android:id="@+id/orderTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Order" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/orderOrderIDLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45.0dip"
+            android:layout_below="@+id/orderTitle"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginEnd="16.0dip">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/orderOrderID"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Order ID"
+                android:singleLine="true" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/orderInitiatedForLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:layout_below="@+id/orderOrderIDLayout"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginEnd="16.0dip">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/orderInitiatedfor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Initiated For"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ordeinitiatedByLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:layout_below="@+id/orderInitiatedForLayout"
+            android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/orderidInitiatedby"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Initiated By"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/orderNoBagsLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:layout_below="@+id/ordeinitiatedByLayout"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginEnd="16.0dip">
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/orderNoBags" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="No of Bags" android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/idRateLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:layout_below="@+id/orderNoBagsLayout"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginEnd="16.0dip">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/orderidRate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Rate"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/orderinitiatedDateLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:layout_below="@+id/idRateLayout"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginEnd="16.0dip">
+
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/orderidInitiateddate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Initiated Date" android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/orderVehicleNoLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:layout_below="@+id/orderinitiatedDateLayout"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginEnd="16.0dip">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/orderVehicleNo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Vehicle No"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ordercommentsLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:layout_below="@+id/orderVehicleNoLayout"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginEnd="16.0dip">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ordercomments"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comments"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/orderOrderStatusLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:layout_below="@+id/ordercommentsLayout"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginEnd="16.0dip">
+            <Spinner
+                android:id="@+id/orderOrderStatus"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="?listPreferredItemHeight" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/orderidProceedbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:text="Proceed"
+            android:layout_below="@+id/orderOrderStatusLayout"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</ScrollView>

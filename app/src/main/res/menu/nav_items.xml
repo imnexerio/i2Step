@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_about_business"
+        android:icon="@drawable/baseline_home_max_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_transaction_info"
+        android:icon="@drawable/baseline_data_exploration_24"
+        android:title="Transactions" />
+    <item
+        android:id="@+id/nav_orders_info"
+        android:icon="@drawable/baseline_add_24"
+        android:title="Orders" />
+
+
+
+
+
+</menu>
