@@ -10,17 +10,17 @@ i2Step is an Android application developed using Kotlin and Java. The project us
 
 ## Technologies Used
 
-- Kotlin: A modern programming language that makes developers happier.
-- Java: A widely-used programming language that is robust and secure.
-- Retrofit: A type-safe HTTP client for Android and Java.
-- SharedPreferences: A framework to save and retrieve key-value pairs of primitive data types.
-- Android Studio Koala Feature Drop | 2024.1.2: The official IDE for Android development.
+- **Kotlin**: A modern programming language that makes developers happier.
+- **Java**: A widely-used programming language that is robust and secure.
+- **Retrofit**: A type-safe HTTP client for Android and Java.
+- **SharedPreferences**: A framework to save and retrieve key-value pairs of primitive data types.
+- **Android Studio Koala Feature Drop | 2024.1.2**: The official IDE for Android development.
 
 ## Getting Started
 
 ### Prerequisites
 
-- **Android Studio| 2023.x.x**: Download and install from the [official website](https://developer.android.com/studio).
+- **Android Studio | 2023.x.x**: Download and install from the [official website](https://developer.android.com/studio).
 - **Gradle**: A build automation tool used for managing dependencies and building the project. It comes bundled with Android Studio.
 
 ### Installation
@@ -67,6 +67,11 @@ Manages local storage of user display name and role using SharedPreferences.
 - **getDisplayName**: Retrieves the user's display name.
 - **saveRole**: Saves the user's role.
 - **getRole**: Retrieves the user's role.
+
+## Backend Repository
+
+The backend code for this project can be found in the following repository:
+[Backend Repository](https://github.com/imnexerio/i2step-backend)
 
 ## License
 
