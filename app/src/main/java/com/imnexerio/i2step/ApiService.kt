@@ -11,8 +11,8 @@ import retrofit2.http.POST
 import retrofit2.Call
 
 object RetrofitClient {
-    private const val BASE_URL = "https://your_url.com/"
-//    private const val BASE_URL = "http://10.0.2.2"
+    private const val BASE_URL = "https://adversely-daring-fox.ngrok-free.app"
+
     private var authToken: String? = null
 
     private val loggingInterceptor = HttpLoggingInterceptor().apply {
