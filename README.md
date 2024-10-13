@@ -2,6 +2,11 @@
 
 i2Step is an Android application developed using Kotlin and Java. The project uses Retrofit for network operations and SharedPreferences for local storage.
 
+![WhatsApp Image 2024-10-13 at 23 57 32_01b88d62](https://github.com/user-attachments/assets/49aa8c27-65be-4d69-8b32-3afc9fe0c39e)
+![WhatsApp Image 2024-10-13 at 23 57 32_2ebfd992](https://github.com/user-attachments/assets/ee001ff9-fe20-494d-b0e1-3fe1ad73fac0)
+![WhatsApp Image 2024-10-13 at 23 57 33_fc7740b1](https://github.com/user-attachments/assets/d8c7ee6b-3968-4252-a28f-7a4e0661dd22)
+
+
 ## Features
 
 - Initiate and fetch orders
